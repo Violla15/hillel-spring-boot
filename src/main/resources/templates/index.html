@@ -14,7 +14,6 @@
     <div th:if="${not #lists.isEmpty(cars)}">
         <div class="container">
             <button type="button" class="btn btn-primary" th:onclick="|window.location.href='cars/add'|">Add</button>
-            <button type="button" class="btn btn-outline-success">Orders</button>
         </div>
         <h2 style="position: relative; left: 45%">Cars List</h2>
         <table class="table table-striped">
@@ -44,7 +43,6 @@
     </div>
 
 </div>
-<!--<a th:href="@{/cars}">Cars List</a>-->
 
 </body>
 
